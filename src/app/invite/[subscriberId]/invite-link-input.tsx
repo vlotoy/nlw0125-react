@@ -21,7 +21,7 @@ export function InviteLinkInput({ inviteLink }: InviteLinkInputProps) {
 
       <InputField
         readOnly
-        defaultValue="http://localhost/invite/ada78d6as87d6a87sd"
+        defaultValue={inviteLink}
       />
 
       <IconButton className="-mr-2" onClick={handleCopyLink}>
